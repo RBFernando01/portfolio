@@ -140,7 +140,7 @@ img {
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
-
+/* Nav */
 .nav {
     max-width: 968px;
     height: var(--header-height);
@@ -216,6 +216,8 @@ img {
     color: var(--first-color-alt);
 }
 
+/* Menu */
+
 .show-menu {
     bottom: 0;
 }
@@ -223,6 +225,8 @@ img {
 .hide-menu {
     bottom: -100;
 }
+
+/* Home */
 
 .home__container {
     gap: 1rem;
@@ -269,4 +273,64 @@ img {
 .home__subtitle {
     font-size: var(--h3-font-size);
     color: var(--text-color);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-75);
 }
+
+.home__description {
+    margin-bottom: var(--mb-2);
+}
+
+.home__scroll {
+    /* display: none; */
+}
+
+.home__scroll-button {
+    color: var(--first-color);
+    transition: .3s;
+}
+
+
+.home__scroll-button:hover {
+    transform: translateY(.25rem);
+}
+.home__scroll-mouse {
+    font-size: 2rem;
+}
+
+.home__scroll-name {
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
+
+.home__scroll-arrow {
+    font-size: 1.25rem;
+}
+
+/* Button */ 
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover {
+    background-color: var(--first-color-alt);
+}
+
+.button__icon  {
+    font-size: 1.25rem;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+.button--flex {
+    display: inline-flex;
+    align-items: center;
+}
+
